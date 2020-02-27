@@ -44,6 +44,7 @@ Secret = ""
 }
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
+var_dump('123');exit;
 foreach ($client->parseEvents() as $event) {
     switch ($event['type']) {
         case 'message':
