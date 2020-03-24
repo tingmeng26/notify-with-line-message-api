@@ -20,8 +20,9 @@
 // 調整為收收到文字訊息轉發至 notify api   
 $headers = [
   'Content-Type: application/x-www-form-urlencoded',
-  'Authorization: Bearer Zl4QpMoFU2hPihfpDJNehMv1ARSuKWLcdYh7CVk8WYk'
+  'Authorization: Bearer Sv0HqJizpB1T267Qk20PKHsPBwE5c7VXrp39UI5um62'
 ];
+var_dump($message['text']);exit;
 $data['message'] = $message['text']??'小廢物你好';
 // 備忘錄 Sv0HqJizpB1T267Qk20PKHsPBwE5c7VXrp39UI5um62
 // 正式 Zl4QpMoFU2hPihfpDJNehMv1ARSuKWLcdYh7CVk8WYk
