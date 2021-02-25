@@ -23,7 +23,7 @@ $headers = [
   'Authorization: Bearer Zl4QpMoFU2hPihfpDJNehMv1ARSuKWLcdYh7CVk8WYk'
 ];
 $data['message'] = $message['text']??'小廢物你好';
-$data['message'].=" , message from".$_SERVER['SERVER_NAME'];
+$data['message'].=" , message from ".$_SERVER['SERVER_NAME'];
 // 備忘錄 Sv0HqJizpB1T267Qk20PKHsPBwE5c7VXrp39UI5um62
 // 正式 Zl4QpMoFU2hPihfpDJNehMv1ARSuKWLcdYh7CVk8WYk
 $result = post_CURL("https://notify-api.line.me/api/notify", http_build_query($data),$headers); 
